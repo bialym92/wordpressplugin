@@ -70,7 +70,7 @@ function u_pizza_get_default_data()
             ]
         ]
     ];
-    console_log("hello");
+
     //returns array with data
     return apply_filters('u_pizza_default_data', $data);
   
