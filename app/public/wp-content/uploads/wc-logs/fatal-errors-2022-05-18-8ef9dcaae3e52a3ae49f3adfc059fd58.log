@@ -1,0 +1,56 @@
+2022-05-18T07:27:11+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:67
+Stack trace:
+#0 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(60): U_Pizza_Install->include()
+#1 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(53): U_Pizza_Install->__construct()
+#2 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(75): U_Pizza_Install::instance()
+#3 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(307): init_plugin_pizza('')
+#4 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-settings.php(450): do_action('plugins_loaded')
+#7 /Users/maciejbialecki/Lo in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php on line 67
+
+2022-05-18T07:27:12+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:67
+Stack trace:
+#0 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(60): U_Pizza_Install->include()
+#1 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(53): U_Pizza_Install->__construct()
+#2 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(75): U_Pizza_Install::instance()
+#3 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(307): init_plugin_pizza('')
+#4 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-settings.php(450): do_action('plugins_loaded')
+#7 /Users/maciejbialecki/Lo in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php on line 67
+
+2022-05-18T07:27:39+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php:2
+Stack trace:
+#0 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(66): require_once()
+#1 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(60): U_Pizza_Install->include()
+#2 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(53): U_Pizza_Install->__construct()
+#3 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(74): U_Pizza_Install::instance()
+#4 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(307): init_plugin_pizza('')
+#5 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Users/ma in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 2
+
+2022-05-18T07:27:39+00:00 CRITICAL Uncaught Error: Call to undefined function console_log() in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php:2
+Stack trace:
+#0 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(66): require_once()
+#1 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(60): U_Pizza_Install->include()
+#2 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(53): U_Pizza_Install->__construct()
+#3 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php(74): U_Pizza_Install::instance()
+#4 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(307): init_plugin_pizza('')
+#5 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Users/ma in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 2
+
+2022-05-18T07:33:36+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
+
+2022-05-18T07:33:36+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
+
+2022-05-18T07:33:38+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
+
+2022-05-18T07:33:38+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
+
+2022-05-18T07:33:44+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
+
+2022-05-18T07:33:44+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
+

@@ -42,6 +42,15 @@ if (!defined('U_PIZZA_DIR')) {
     define('U_PIZZA_DIR', __FILE__);
 }
 
+//debugging
+function console_log( $data ){
+    echo '<script>';
+    echo 'console.log('. json_encode( $data ) .')';
+    echo '</script>';
+  }
+
+  
+
 class U_Pizza_Install 
 {
 
@@ -61,6 +70,8 @@ class U_Pizza_Install
     }
     public function include()
     {
+        //pizza settings.php
+        // require_once U_PIZZA_PATH . 'includes/pizza-functions.php';
         require_once U_PIZZA_PATH . 'includes/pizza.php';
 
         U_Pizza::instance();
@@ -70,6 +81,7 @@ class U_Pizza_Install
 function init_plugin_pizza() 
 {
     U_Pizza_Install::instance(); 
+    
 }
 
 
