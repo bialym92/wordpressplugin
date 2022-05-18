@@ -72,5 +72,5 @@ function init_plugin_pizza()
     U_Pizza_Install::instance(); 
 }
 
-add_action('plugins_loaded', 'init_plugin_pizza', 5);
 
+add_action('plugins_loaded', 'init_plugin_pizza', 5);
