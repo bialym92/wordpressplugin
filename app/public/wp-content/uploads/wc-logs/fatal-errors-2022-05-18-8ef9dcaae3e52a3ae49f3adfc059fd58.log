@@ -54,3 +54,13 @@ Stack trace:
 
 2022-05-18T07:33:44+00:00 CRITICAL Cannot redeclare console_log() (previously declared in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/u-pizza.php:46) in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php on line 3
 
+2022-05-18T16:26:02+00:00 CRITICAL Uncaught Error: Call to undefined function exc_html() in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/templates/admin/pizza-settings.php:14
+Stack trace:
+#0 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/includes/pizza.php(34): require_once()
+#1 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(307): U_Pizza->settings_page('')
+#2 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/woocommerce/includes/admin/views/html-admin-settings.php(40): do_action('woocommerce_set...')
+#5 /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php(154): include('/Users/maciejbi...')
+#6 /Users/maciejbialecki/Local Sites/ in /Users/maciejbialecki/Local Sites/udemy/app/public/wp-content/plugins/u-pizza/templates/admin/pizza-settings.php on line 14
+

@@ -17,7 +17,7 @@ class U_Pizza {
         add_filter('woocommerce_settings_tabs_array',[$this, 'add_settings_tab'], 50);
         add_action('woocommerce_settings_u_pizza', [$this, 'settings_page']);
         add_action('woocommerce_update_options_u_pizza', [$this, 'update_woo_settings']);
-        add_filter('u_pizza_default_data', [$this, 'modify_default_data']);
+        // add_filter('u_pizza_default_data', [$this, 'modify_default_data']);
     }
 
     //zwraca taby
@@ -46,6 +46,7 @@ class U_Pizza {
         update_option('u_pizza_data', $_POST['pizza_data']);
     }
 
+    // this ads data
     public function modify_default_data($data) {
         $data[] = [
             'id' => 3,
