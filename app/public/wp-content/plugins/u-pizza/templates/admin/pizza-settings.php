@@ -1,4 +1,6 @@
 <?php
+wp_enqueue_style('woocommerce_admin_styles');       //   styles that make wrapers work
+wp_enqueue_script('wc-admin-meta-boxes');            //   styles that make wrappers work
 $pizza_data = get_option('u_pizza_data') ? get_option('u_pizza_data') : u_pizza_get_default_data();
 echo "<pre>";
 print_r($pizza_data);
@@ -14,7 +16,7 @@ echo "</pre>";
                         <strong><?php echo esc_html($group['group_name']); ?></strong>
                         <input type="hidden" name="pizza-data[<?php echo esc_attr($group['id']); ?>][id]" value="<?php echo esc_attr($group['id']); ?>">
                     </h3>
-                    <div class="wc-metaboxes-content">
+                    <div class="wc-metabox-content">
                         <div class="group-header">
                             <div class="form-group">
                                 <label for=""><?php esc_html_e('Group name', 'u-pizza') ?></label>
